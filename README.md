@@ -12,9 +12,9 @@ nano Dockerfile
     ENTRYPOINT ["java","-jar","/app.jar"]   
 
 3.Build the container image using the docker build command:          
-docker build -t <nome image> .  
+docker build -t nomeimage .  
 4.Start container using the docker run command and specify the name of the image we just created                
-docker run -p 9000:8080 <nome image>   
+docker run -p 9000:8080 nomeimage         
 
 5.open your web browser to:                  
-http://140.238.173.110:9000/qr/<string>
+http://140.238.173.110:9000/qr/samestring
