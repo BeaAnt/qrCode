@@ -1,6 +1,6 @@
 # qrCode    
 
-VM Docker: 
+VM Docker:       
 1.Clone the project from git repository:        
 git clone https://github.com/BeaAnt/qrCode.git    
 cd qrCode 
