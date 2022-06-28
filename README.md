@@ -15,11 +15,14 @@ nano Dockerfile
 
 4.Build the container image using the docker build command:          
 docker build -t nomeimage .  
-5.Start container using the docker run command and specify the name of the image we just created                
+5.open a port       
+sudo firewall-cmd --permanent --add-port=9001/tcp       
+6.Start container using the docker run command and specify the name of the image we just created                
 docker run -p 9001:8080 nomeimage         
 
-6.open your web browser to:                  
+7.open your web browser to:                  
 http://140.238.214.120:9001/qr/samestring       
+8.To stop the container, press ctrl-c.      
 
 path of microservices:     
 qrCode/src/main/java/com/jsoup/controller/QrController
