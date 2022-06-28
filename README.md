@@ -4,7 +4,7 @@ VM Docker:
 1.Clone the project from git repository:        
 git clone https://github.com/BeaAnt/qrCode.git    
 cd qrCode       
-2. build the project:       
+2.Build the project:       
 mvn clean package       
 3.Create a file named Dockerfile in the same folder as the project      
 nano Dockerfile     
