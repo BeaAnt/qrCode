@@ -17,4 +17,7 @@ docker build -t nomeimage .
 docker run -p 9000:8080 nomeimage         
 
 5.open your web browser to:                  
-http://140.238.173.110:9000/qr/samestring
+http://140.238.173.110:9000/qr/samestring       
+
+path of microservices:     
+qrCode/src/main/java/com/jsoup/controller/QrController
